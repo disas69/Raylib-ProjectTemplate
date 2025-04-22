@@ -20,6 +20,8 @@ int main()
         BeginDrawing();
         ClearBackground(RAYWHITE);
 
+        DrawText(title, screenWidth / 2 - MeasureText(title, 20) / 2, screenHeight / 2 - 10, 20, DARKGRAY);
+
         // Draw game
 
         EndDrawing();
